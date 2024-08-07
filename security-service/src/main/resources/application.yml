@@ -1,0 +1,17 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: security-service
+  r2dbc:
+    pool:
+      enabled: true
+    url: r2dbc:postgresql://localhost:5432/twitterClone
+    username: zenycero
+    password: zenycero
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
