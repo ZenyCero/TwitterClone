@@ -1,4 +1,4 @@
-package org.zerocool.securityservice.application.mapper;
+package org.zerocool.securityservice.application;
 
 import org.zerocool.securityservice.domain.model.UserEntity;
 import org.zerocool.securityservice.dto.UserDTO;

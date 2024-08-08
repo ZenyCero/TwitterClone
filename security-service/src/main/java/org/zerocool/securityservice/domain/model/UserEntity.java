@@ -13,7 +13,6 @@ import org.springframework.data.relational.core.mapping.Table;
 @Builder
 public class UserEntity {
     @Id
-    private Long id;
     private String username;
     private String password;
 }
